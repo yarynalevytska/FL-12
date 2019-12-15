@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #21232e; }
+
+.header {
+  background-image: url("../img/m-h-night.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0% 50%;
+  padding: 20px 140px;
+  color: #fff;
+  height: 100%;
+  border-radius: 0% 0% 40% 0% / 0% 0% 40% 0%;
+  margin-bottom: 36px; }
+
+.landing-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 50px; }
+  .landing-logo img {
+    width: 45px; }
+  .landing-logo p {
+    font-weight: bold;
+    font-family: "Fresca", sans-serif;
+    font-size: 22px;
+    padding-left: 15px;
+    text-align: center; }
+  .landing-logo span {
+    display: block;
+    font-weight: normal;
+    font-size: 10px; }
+
+.header_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 450px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px; }
+  .header_heading span {
+    background-color: #ff4e33;
+    display: inline-block;
+    line-height: 25px;
+    padding-bottom: 20px; }
+
+.header_text {
+  font-family: "Fresca", sans-serif;
+  margin: 30px 0;
+  white-space: pre-line;
+  line-height: 1.5; }
+
+.join {
+  margin: 50px 0 120px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .join button {
+    background-color: #e3ac00;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: bold; }
+  .join a {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #fff; }
+
+.section {
+  margin: 0 auto;
+  width: 960px;
+  position: relative; }
+
+.section_text {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-bottom: 35px; }
+  .section_text span {
+    background-color: #ff4e33;
+    display: inline-block;
+    line-height: 35px;
+    padding-top: 12px; }
+
+.section_card_wrap {
+  width: 840px;
+  margin: 0 auto;
+  padding-bottom: 180px; }
+
+.section_card {
+  padding: 15px;
+  background-color: #3b3f50;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .section_card img {
+    width: 120%;
+    border-radius: 5px; }
+  .section_card div {
+    margin: 10px 50px;
+    text-align: center; }
+    .section_card div a {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 16px;
+      color: #d1d1d1;
+      line-height: 40px; }
+
+.section_card_heading {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 20px; }
+
+.section_card_text {
+  font-family: "Fresca", sans-serif;
+  color: #d1d1d1;
+  text-align: justify;
+  margin: 20px 0; }
+
+.section_banner {
+  width: 960px;
+  background: linear-gradient(to right, #dca108, #932d52);
+  border-radius: 5px;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%); }
+
+.section_banner_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px; }
+  .section_banner_heading span {
+    background-color: #ff4e33;
+    display: inline-block;
+    line-height: 30px;
+    padding-top: 10px; }
+
+.section_banner_text {
+  color: #fff;
+  font-family: "Fresca", sans-serif;
+  padding: 5px 0; }
+
+.section_banner_button {
+  background-color: #e3ac00;
+  color: #fff;
+  width: 140px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold; }
+
+.footer {
+  background-color: #3b3f50;
+  color: #d1d1d1;
+  padding: 80px 120px; }
+
+.footer-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px; }
+
+.footer_logo {
+  margin-bottom: 0; }
+
+.footer_text {
+  width: 300px;
+  font-family: "Fresca", sans-serif;
+  font-size: 14px; }
+
+.footer-cr {
+  font-family: "Fresca", sans-serif; }
+
+/*# sourceMappingURL=style2.css.map */
